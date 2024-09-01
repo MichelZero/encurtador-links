@@ -10,6 +10,7 @@ import pyshorteners
 
 # criar uma variável para armazenar o link
 link = input("Digite o link: ")
+#link = "link"
 
 # criar uma objeto da classe Shortener da biblioteca pyshorteners para encurtar o link
 encurtador = pyshorteners.Shortener()
